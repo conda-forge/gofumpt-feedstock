@@ -1,5 +1,5 @@
 {% set name = "gofumpt" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mvdan/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 26a7c8dce1f153d250e7d36665cf7fab3776aee83248f94be4ebbad23fcaddc4
+  sha256: d994902b3cb7eeacb23ccb949185dd036a65b9fc316a11a8842f7aa60f5ef4ba
 
 build:
   number: 0
