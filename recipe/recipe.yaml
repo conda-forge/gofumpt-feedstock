@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.11.0"
+  version: "0.12.0"
 
 package:
   name: gofumpt
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/mvdan/gofumpt/archive/v${{ version }}.tar.gz
-  sha256: 9151983838fa3fbca5a83e3b302e81c68c61e393cb9d3b7e4c297df311bbf394
+  sha256: b6d5d14692cad23996da4329bf24d30324af30125dd5261e6d9b0c5bc8b20b28
 
 build:
   number: 0
